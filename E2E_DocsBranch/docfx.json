@@ -7,7 +7,7 @@
         ],
         "exclude": [
           "**/obj/**",
-          "E2E_DocsBranch/**",
+          "E2E_MDBuiltContents/**",
           "**/includes/**"
         ]
       }
@@ -20,7 +20,7 @@
         ],
         "exclude": [
           "**/obj/**",
-          "E2E_DocsBranch/**",
+          "E2E_MDBuiltContents/**",
           "**/includes/**"
         ]
       }
@@ -30,6 +30,6 @@
     "globalMetadata": {},
     "fileMetadata": {},
     "template": [],
-    "dest": "E2E_DocsBranch"
+    "dest": "E2E_MDBuiltContents"
   }
 }
