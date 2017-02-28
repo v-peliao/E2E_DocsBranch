@@ -1,5 +1,7 @@
-# Inline
+#Include Test Page
+
+## Inline
 Other inline content...[!include[<IncludeTesting>](<includefile.md>)]
 
-# Block
+## Block
 [!include[<IncludeTesting>](<includefile.md>)]
