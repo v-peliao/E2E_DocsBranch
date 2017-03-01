@@ -15,9 +15,9 @@
 >              return new Oid("DES");
 >          case EncryptionAlgorithm.TripleDes:
 >              return new Oid("3DES");
->     }
+>      }
 >
->     throw new SecurityException("The specified algorithm is not supported.");
+>      throw new SecurityException("The specified algorithm is not supported.");
 >  }
 > ```
 > ```javascript
