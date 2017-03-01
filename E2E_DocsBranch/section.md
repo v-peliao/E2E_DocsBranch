@@ -3,7 +3,7 @@
 # Section
 > [!div class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar"]
 > ```cs
-> internal static Oid ConvertAlgorithm(EncryptionAlgorithm algorithm)
+> <internal static Oid ConvertAlgorithm(EncryptionAlgorithm algorithm)
   {
       switch (algorithm)
       {
@@ -18,14 +18,14 @@
       }
 
       throw new SecurityException("The specified algorithm is not supported.");
-  }
+  }>
 > ```
 > ```javascript
-> var loginWithCheck = function (url, name, password) {      
+> <var loginWithCheck = function (url, name, password) {      
          browser.getCurrentUrl().then(function (url) {
             if (url.indexOf('https://login.microsoftonline.com/') > -1) {
                 login(url, name, password);
             }
         });
-    };
+    };>
 > ```
