@@ -2,10 +2,10 @@
 ## <a id="AnchorText"> </a>Anchor link Test
 
 ## Reference content within a docset
-[My link text](../index.md)
+[index](index.md)
 
 ## Reference content in external docsets
-[My link text](/e2e_docsbranch/index.md)
+[index](/e2e_docsbranch_dynamic/index.md)
 
 ## Anchor links
 [Go to 'Anchor links Test'](#AnchorText)   
