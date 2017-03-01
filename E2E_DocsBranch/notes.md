@@ -14,4 +14,4 @@
 
 ## important
 > [!IMPORTANT]
-> This is IMPORTANT
+> This is a IMPORTANT
