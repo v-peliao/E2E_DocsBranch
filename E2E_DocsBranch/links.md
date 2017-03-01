@@ -2,7 +2,7 @@
 ## <a id="AnchorText"> </a>Anchor link Test
 
 ## Reference content within a docset
-[My link text](../test/index.md)
+[My link text](../index.md)
 
 ## Reference content in external docsets
 [My link text](/e2e_docsbranch/index.md)
