@@ -30,4 +30,4 @@ Other inline content...[!include[<IncludeTesting>](<includefile.md>)]
 ## video
 
 
-## <a id="AnchorText"> </a>Anchor links Test
+## <a id="AnchorText"> </a>Anchor link Test
