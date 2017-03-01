@@ -8,6 +8,6 @@
 [My link text](/active-directory/active-directory-article-name)
 
 ## Anchor links
-[text](#AnchorText)
-[text](index.md#AnchorText)
+[Go to 'Anchor links Test'](#AnchorText)
+[Go to 'Anchor links Test of index.md'](index.md#AnchorText)
 
