@@ -21,11 +21,11 @@
   }
 > ```
 > ```javascript
-> browser.driver.wait(function () {
-            return foundElement.isDisplayed(function (displayed) {
-                return foundElement.isEnabled(function (enabled) {
-                    return displayed && enabled;
-                });
-            });
-        }, 60 * 1000, "Waiting for <input> displayed and enabled timed out!");
+> var loginWithCheck = function (url, name, password) {      
+         browser.getCurrentUrl().then(function (url) {
+            if (url.indexOf('https://login.microsoftonline.com/') > -1) {
+                login(url, name, password);
+            }
+        });
+    };
 > ```
