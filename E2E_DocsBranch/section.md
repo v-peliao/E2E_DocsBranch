@@ -21,11 +21,11 @@
 >  }
 > ```
 > ```javascript
-> <var loginWithCheck = function (url, name, password) {      
-         browser.getCurrentUrl().then(function (url) {
-            if (url.indexOf('https://login.microsoftonline.com/') > -1) {
-                login(url, name, password);
-            }
-        });
-    };>
+> var loginWithCheck = function (url, name, password) {      
+>         browser.getCurrentUrl().then(function (url) {
+>            if (url.indexOf('https://login.microsoftonline.com/') > -1) {
+>                login(url, name, password);
+>            }
+>        });
+>    };
 > ```
