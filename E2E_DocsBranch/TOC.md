@@ -3,6 +3,6 @@
 # [Index2](https://ppe.docs.microsoft.com/en-us/e2e_docsbranch/index?branch=metadata)
 # [Common](common.md)
 # [Include](include.md)
-# [Note](note.md)
+# [Notes](notes.md)
 # [Href](href.md)
 # [YAML Header](yamlHeader.md)
