@@ -1,6 +1,6 @@
 # Section test page
 
-# Section
+## Section
 > [!div class="tabbedCodeSnippets" data-resources="OutlookServices.Calendar"]
 > ```cs
 > internal static Oid ConvertAlgorithm(EncryptionAlgorithm algorithm)
