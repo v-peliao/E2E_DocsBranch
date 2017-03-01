@@ -5,7 +5,7 @@
 [My link text](../test/index.md)
 
 ## Reference content in external docsets
-[My link text](/test/index.md)
+[My link text](/e2e_docsbranch/index.md)
 
 ## Anchor links
 [Go to 'Anchor links Test'](#AnchorText)   
