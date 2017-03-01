@@ -5,7 +5,7 @@
 [index](index.md)
 
 ## Reference content in external docsets
-[index](/e2e_docsbranch_dynamic/index.md?branch=master)
+[index](/e2e_docsbranch_dynamic/index?branch=master)
 
 ## Anchor links
 [Go to 'Anchor links Test'](#AnchorText)   
