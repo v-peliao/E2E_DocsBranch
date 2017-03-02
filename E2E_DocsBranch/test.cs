@@ -1,30 +1,19 @@
 public class FileLogger : BaseLogger
 {
-    private static object _lockObj = new object();
-    public static string DefaultFilePath
+    internal static Oid ConvertAlgorithm(EncryptionAlgorithm algorithm)
     {
-        get
-        {
-            string path = EnvironmentHelper.CurrentExecuteDir;
-            return string.Format("{0}/Log/", path);
-        }
-    }
-    public static string DefaultFileName
-    {
-        get
-        {
-            return DateTime.Now.ToString("yyyy-MM-dd") + ".log";
-        }
-    }
+         switch (algorithm)
+         {
+             case EncryptionAlgorithm.RC2:
+                 return new Oid("RC2");
+             case EncryptionAlgorithm.RC4:
+                 return new Oid("RC4");
+             case EncryptionAlgorithm.Des:
+                 return new Oid("DES");
+             case EncryptionAlgorithm.TripleDes:
+                 return new Oid("3DES");
+         }
 
-    public string FilePath { get; set; }
-    public string FileName { get; set; }
-    public bool WithHeader { get; set; }
-
-    public FileLogger()
-    {
-        WithHeader = true;
-        FilePath = DefaultFilePath;
-        FileName = DefaultFileName;
+         throw new SecurityException("The specified algorithm is not supported.");
     }
 }
