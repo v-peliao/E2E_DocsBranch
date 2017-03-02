@@ -1,6 +1,6 @@
 # Selector test page
 
-## Single Selector
+## Single Selector Test
 > [!div class="op_single_selector"]
 - [Azure](https://docs.microsoft.com/en-us/powershell/azureps-cmdlets-docs)
 - [Azure AD](https://docs.microsoft.com/en-us/powershell/azure%20ad%20cmdlets)
@@ -8,7 +8,7 @@
 - [Azure Service Fabric](https://docs.microsoft.com/en-us/powershell/servicefabric/vlatest/servicefabric)
 - [Azure Information Protection](https://docs.microsoft.com/en-us/powershell/aadrm/vlatest/rightsmanagement)
 
-## Multi Selector
+## Multi Selector Test
 > [!div class="op_multi_selector" title1="Platform" title2="Backend"]
 - [(Azure | ResourceManager)](https://docs.microsoft.com/en-us/powershell/resourcemanager/)
 - [(Azure | ServiceManagement)](https://docs.microsoft.com/en-us/powershell/servicemanagement/)
