@@ -1,6 +1,6 @@
 # Codesnippets Test Page
 
 ## Internal code snippets
-[!code-csharp[Main](test.cs#L20-L29 "This is source file")]
+[!code-csharp[Main](test.cs#L3-L18 "This is source file")]
 
 ## External code snippets
