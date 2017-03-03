@@ -1,5 +1,5 @@
 # [Index](index)
-# [Index1](https://ppe.docs.microsoft.com/en-us/e2e_docsbranch/index?branch=metadata)
+# [Index1](https://ppe.docs.microsoft.com/en-us/e2e_docsbranch/index)
 # [Index2](a/index)
 # [Index3](a-index)
 # [Common](common.md)
